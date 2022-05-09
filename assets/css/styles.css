@@ -14,6 +14,11 @@ body {
   background-color: hsl(212deg, 45%, 89%);
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(218deg, 44%, 22%);
 }
 
 h2,
