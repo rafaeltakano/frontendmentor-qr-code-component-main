@@ -1,0 +1,70 @@
+/* Globals */
+$--color-white: hsl(0, 0%, 100%);
+$--color-gray: hsl(212, 45%, 89%);
+$--color-blue-light: hsl(220, 15%, 55%);
+$--color-blue-dark: hsl(218, 44%, 22%);
+
+$--font-size: 0.9375rem;
+$--font-family: 'Outfit', sans-serif;
+
+html {
+  box-sizing: border-box;
+  font-family: $--font-family;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $--color-gray;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+/* Card Component */
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: $--color-white;
+  border-radius: 0.625rem;
+  padding: 0.75rem;
+  text-align: center;
+  max-width: 20rem;
+
+  &__img {
+    width: 100%;
+
+    img {
+      border-radius: 0.625rem;
+      width: 100%;
+    }
+  }
+
+  &__title {
+    color: $--color-blue-dark;
+    margin: 0.75rem;
+  }
+
+  &__text {
+    color: $--color-blue-light;
+    font-size: $--font-size;
+    margin: 0.75rem 0.75rem 1rem;
+  }
+}

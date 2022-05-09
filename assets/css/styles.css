@@ -1,0 +1,59 @@
+/* Globals */
+html {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+/* Card Component */
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0.625rem;
+  padding: 0.75rem;
+  text-align: center;
+  max-width: 20rem;
+}
+.card__img {
+  width: 100%;
+}
+.card__img img {
+  border-radius: 0.625rem;
+  width: 100%;
+}
+.card__title {
+  color: hsl(218deg, 44%, 22%);
+  margin: 0.75rem;
+}
+.card__text {
+  color: hsl(220deg, 15%, 55%);
+  font-size: 0.9375rem;
+  margin: 0.75rem 0.75rem 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
